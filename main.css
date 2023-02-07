@@ -1,0 +1,53 @@
+* {transition: all 0.3s ease;}
+body {font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: 300;}
+.content {margin-left: auto; margin-right: auto; max-width:1280px; padding-left:2em; padding-right:2em; }
+.main-logo-header { padding-top: 8em; padding-bottom: 5em; background-color:#f7f7f7;}
+.main-logo-header img {width: 90%;}
+.main-logo-header button.caso-romero {cursor:pointer; background: #0e3482; color: white; border: none; padding: 1em 2em; width: 90%; margin: 3em auto; display: block;}
+.main-logo-header button.caso-romero:hover { background:#2b53a6; }
+.main-sticky-menu { background: #ecc92a; margin:0; padding:0;   position: fixed;  top: 0px;  left: 0px;  right: 0px; border-bottom: solid 1px #d9d7d7; z-index:21;}
+.main-sticky-menu ul { display:table; margin: 0; padding: 0; width: 100%;}
+.main-sticky-menu ul li { display:table-cell; text-align: center; }
+.main-sticky-menu ul li:first-child { text-align: left; }
+.main-sticky-menu ul li a {   color: #5e5e5e;  text-decoration: none;  font-weight: bolder;  display: block;  padding: 1em;}
+.main-sticky-menu ul li a:hover { color: black; background: #ddb500;}
+.main-sticky-menu img.twitter, .main-sticky-menu img.instagram, .main-sticky-menu img.mail { width: 1em; }
+
+.frontpage-main-section {  }
+h2 { font-weight: lighter; color: #5e5e5e; font-size: 2em; }
+.frontpage-main-section h2 { border-bottom: solid 1px #fddddd; margin-right: 4em; }
+.frontpage-main-section h2.news {border-bottom: solid 1px #ba1928;}
+.frontpage-main-section h2.campaigns {border-bottom: solid 1px #002d88;}
+.frontpage-main-section h2.keu {border-bottom: solid 1px #ecc92a;}
+.frontpage-main-section h2.interviews {border-bottom: solid 1px #ba1928;}
+.frontpage-main-section a { color: #5e5e5e; font-weight: lighter; text-decoration:none; display: block; margin-bottom: 1.5em; font-size: 1.1em;}
+.frontpage-main-section a:hover { text-decoration: underline;}
+.frontpage-main-section a b { font-weight:bolder; display: block; margin-bottom: 0.5em; color:#3b3b3b;}
+.frontpage-main-section-content { padding-right:4em; }
+
+.image-carousel-100 { margin:0 auto; }
+.image-carousel-max-2k { max-width:2048px;  }
+.image-carousel-100 .image-carousel-100-title {  }
+.image-carousel-100 .image-carousel-100-title h3 { margin-bottom: 0; /usr/local/bin/docker-composefont-weight: inherit; font-size: 0.8em; color: white; letter-spacing: 0.2em; text-transform: uppercase; margin-top: 0; padding: 1em 2em; background:#5c5c5c; width: auto; display: inline-block; border-radius: 0 0 0.5em 0.5em;}
+.image-carousel-100 .image-carousel-100-title h3.top { border-radius: 0.5em 0.5em 0 0; }
+.image-carousel-100 .image-carousel-100-title h3.bottom { border-radius: 0 0 0.5em 0.5em; }
+.publications img:hover, .campaigns img:hover{ cursor:pointer; opacity: 0.85;}
+
+main {margin-top:3em; margin-bottom:3em;}
+
+footer { background: #5e5e5e; padding: 0.5em 0; margin-top: 3em; }
+footer ul {display: table; margin: 0; padding: 0;}
+footer ul li { display:table-cell; }
+footer ul li a{ color:white; text-transform:uppercase; margin: 0 1em; color: #b0b0b0;text-transform: uppercase;margin: 0 1em 0 0;text-decoration: none; }
+
+.vbreak-2em {height: 2em;}
+.bolder {font-weight: bolder;}
+.theme-bg-yellow {  }
+.padding-top-2em {padding-top:2em;}
+
+.article-wrapper { padding-right: 1em; }
+.article-image-wrapper { padding-left: 1em; }
+.article-wrapper h3 {margin-top:0; font-size: 2em; font-weight: normal; }
+.article-wrapper h4 { font-size: 1.6em; font-weight: lighter; letter-spacing: 0.1em;}
+.article-wrapper p { font-size: large; line-height: 1.5em;}
+.article-wrapper .author {  }
